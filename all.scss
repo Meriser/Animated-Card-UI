@@ -124,7 +124,7 @@ a {
         overflow: hidden;
         opacity: 0;
     }
-    &:hover {
+    &:hover, &:active {
         max-height: 400px;
         & .card__img {
             transform: scale(1.4);

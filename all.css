@@ -121,13 +121,13 @@ a {
   overflow: hidden;
   opacity: 0;
 }
-.card:hover {
+.card:hover, .card:active {
   max-height: 400px;
 }
-.card:hover .card__img {
+.card:hover .card__img, .card:active .card__img {
   transform: scale(1.4);
 }
-.card:hover .hidden {
+.card:hover .hidden, .card:active .hidden {
   display: block;
   opacity: 1;
 }/*# sourceMappingURL=all.css.map */
